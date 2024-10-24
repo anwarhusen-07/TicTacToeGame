@@ -49,6 +49,9 @@ button {
   border-radius: 6px;
   overflow: hidden;
 }
+.boxes:hover {
+    background-color: #272727de;
+}
 
 button#b1,
 button#b4,

@@ -29,6 +29,8 @@ resetBtn.addEventListener("click", () => {
 for (let btn of boxes) {
   btn.addEventListener("click", () => {
     if (win == false) {
+      navigator.vibrate(50);
+
       if (turn == "X") {
         btn.innerText = turn;
         btn.style.color = "red";

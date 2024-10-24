@@ -28,6 +28,15 @@ nav ul {
   border-radius: 10px;
   position: relative;
 }
+.computerText:hover{
+   background-color:#6ce0d6;
+}
+.friendText:hover{
+     background-color: #6ce0d6;
+}
+.ruleButton:hover{
+   background-color:#00fca7;
+}
 
 .ruleButton {
   font-size: 27px;

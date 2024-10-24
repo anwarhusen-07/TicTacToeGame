@@ -79,15 +79,7 @@ button#b3 {
 #reset:hover{
    background-color: #000000fa;
 }
-.computerText:hover{
-   background-color:#6ce0d6;
-}
-.friendText:hover{
-     background-color: #6ce0d6;
-}
-.ruleButton:hover{
-   background-color:#00fca7;
-}
+
 #reset {
   margin-bottom: -120px;
   padding: 13px 10px 16px 12px;

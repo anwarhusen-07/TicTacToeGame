@@ -30,6 +30,7 @@ resetBtn.addEventListener("click", () => {
 for (let btn of boxes) {
   btn.addEventListener("click", () => {
     if (!win && btn.innerText === "") {
+      navigator.vibrate(100);
       if (turn == "X") {
         btn.innerText = turn;
         btn.style.color = "red";
@@ -50,6 +51,7 @@ function computerMove() {
     if (btn.innerText === "") {
       btn.innerText = "O";
       btn.style.color = "white";
+      navigator.vibrate(100);
       if (checkWinCondition("O")) {
         boxes.forEach((btn) => (btn.disabled = true));
         playerTurn.innerText = "Player ";

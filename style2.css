@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "poppins";
+  color: aqua;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+button {
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 120px;
+  line-height: 112px;
+  cursor: pointer;
+  border: 1px solid rgb(24, 216, 17);
+  background-color: #000000fa;
+  font-family: "poppins";
+  font-weight: bold;
+  color: #fafafa;
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+button#b1,
+button#b4,
+button#b7 {
+  border-left: none;
+}
+
+button#b3,
+button#b6,
+button#b9 {
+  border-right: none;
+}
+
+button#b7,
+button#b8,
+button#b9 {
+  border-bottom: none;
+}
+
+button#b1,
+button#b2,
+button#b3 {
+  border-top: none;
+}
+
+#reset {
+  margin-bottom: -120px;
+  padding: 13px 10px 16px 12px;
+  background-color: #000000;
+  color: white;
+  height: 29px;
+  border-color: aquamarine;
+  border-radius: 30px;
+  width: fit-content;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.turn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Turn {
+  background-color: transparent;
+  color: rgb(236, 236, 236);
+  height: 10px;
+  border-radius: 20px;
+  font-size: 22px;
+  width: fit-content;
+  padding-top: 20px;
+}
+
+#playerTurn {
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+img {
+  top: 20px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  margin: 0px;
+  margin-left: auto;
+}
+
+.boxes {
+  font-family: "Baloo Paaji 2", sans-serif;
+}
+@media screen and (max-height: 570px) {
+  .boxes {
+    height: 86px;
+    width: 86px;
+  }
+}

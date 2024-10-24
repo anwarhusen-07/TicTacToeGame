@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #ffffff;
+  align-items: center;
+}
+nav {
+  margin-top: 5px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  margin: 10px 100px 10px 100px;
+  border: 3px solid black;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.ruleButton {
+  font-size: 27px;
+  font-family: "Poppins";
+  background-color: aquamarine;
+  border-radius: 9px;
+  padding: 0px 5px;
+  border: 2px solid black;
+  font-weight: 500;
+}
+
+ul #mode {
+  background-color: transparent;
+  border: none;
+}
+
+ul #mode img {
+  height: 41px;
+  width: 41px;
+}
+
+ul .logo {
+  height: 51px;
+  width: 51px;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+ul .enjoy {
+  text-align: center;
+  font-size: 44px;
+  font-family: "Playfair Display", serif;
+}
+
+.rightNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 60px;
+  color: #625858;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  word-spacing: 5px;
+  margin-top: 50px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  color: #024975;
+  margin: 50px;
+  text-align: center;
+  font-size: 70px;
+  word-spacing: 5px;
+  font-family: "Londrina Sketch", cursive;
+}
+
+span {
+  font-family: "Poppins", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin: 15px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 51px;
+  margin-right: 90px;
+  background-color: #41f2e2;
+  font-weight: 600;
+  border-radius: 5px;
+  border-color: #333;
+  padding: 2px 10px;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.computer {
+  height: 202px;
+  width: 240px;
+  border-radius: 56px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.friend {
+  height: 208px;
+  width: 248px;
+  border-radius: 56px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.friendText {
+  letter-spacing: 1px;
+  margin-left: 57px;
+  padding: 2px 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+  flex-direction: column;
+}
+
+.item img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  nav ul .enjoy {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 64px;
+  }
+  img {
+    height: 32px;
+    width: 32px;
+  }
+  nav ul .logo {
+    height: 35px;
+    width: 35px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px;
+  }
+  .rightNav {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 38px;
+  }
+  div .computerText {
+    margin-left: 90px;
+  }
+  .friendText {
+    margin-left: 44px;
+    padding: 2px 26px;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  .computer {
+    height: 181px;
+    width: 226px;
+    margin-left: 50px;
+    border-radius: 25px;
+  }
+  .friend {
+    height: 181px;
+    width: 226px;
+    border-radius: 25px;
+  }
+
+  ul .ruleButton {
+    right: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 4px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+  nav ul .enjoy {
+    font-size: 25px;
+  }
+
+  nav ul .logo {
+    height: 27px;
+    width: 27px;
+    left: 4px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+
+  img {
+    height: 28px;
+    width: 28px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 3.5px;
+  }
+  .rightNav {
+    gap: 1px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 31px;
+    margin: 15px 15px 15px 40px;
+  }
+  .rightNav {
+    gap: 6px;
+  }
+  div .computerText {
+    margin-left: 15px;
+  }
+  .friendText {
+    margin-left: 13px;
+    padding: 2px 26px;
+  }
+  nav ul .enjoy {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 35px;
+    margin: 15px 15px 15px 40px;
+  }
+  nav ul .logo {
+    height: 27px;
+    width: 27px;
+    margin-left: 4px;
+  }
+  nav ul {
+    padding: 0px 2px;
+    margin: 2px 20px;
+  }
+  .item img {
+    height: 125px;
+    width: 200px;
+    justify-content: center;
+    margin: 0px;
+  }
+  .image-container {
+    flex-direction: column;
+  }
+  ul #mode img {
+    height: 34px;
+    width: 34px;
+  }
+  img {
+    height: 25px;
+    width: 25px;
+  }
+  a span {
+    margin: 1px;
+    font-size: 24px;
+  }
+  nav {
+    padding: 1px 1px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2.5px 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+    margin: 15px 15px 15px 35px;
+  }
+  .friendText {
+    margin-left: 13px;
+    padding: 2px 2px;
+    font-size: 18px;
+  }
+  div .computerText {
+    font-size: 18px;
+  }
+  .rightNav {
+    gap: 0px;
+  }
+
+  .friend {
+    height: 181px;
+    width: 226px;
+    border-radius: 20px;
+  }
+  .computer {
+    height: 181px;
+    width: 226px;
+    border-radius: 20px;
+  }
+  nav ul {
+    padding: 0px 2px;
+    margin: 2px 10px;
+  }
+
+  nav ul .enjoy {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 35px;
+    margin: 15px 15px 15px 40px;
+  }
+  nav ul .logo {
+    height: 23px;
+    width: 23px;
+    left: 4px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 2.5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 21px;
+    margin: 10px 10px 10px 30px;
+  }
+
+  .friendText {
+    margin-left: 8px;
+    padding: 1px 1px;
+    font-size: 16px;
+  }
+  div .computerText {
+    font-size: 16px;
+  }
+  nav ul .enjoy {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 29px;
+    margin: 10px 10px 10px 30px;
+  }
+  nav ul .logo {
+    height: 20px;
+    width: 20px;
+    left: 3px;
+  }
+  .image-container {
+    flex-direction: column;
+  }
+  a span {
+    margin: 1px;
+    font-size: 20px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 13px;
+    margin: 8px 8px 8px 25px;
+  }
+  .rightNav {
+    gap: 1px;
+  }
+  .friendText {
+    margin-left: 5px;
+    padding: 0.5px 0.5px;
+    font-size: 14px;
+  }
+  div .computerText {
+    font-size: 14px;
+  }
+  nav ul .enjoy {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 25px;
+    margin: 8px 8px 8px 25px;
+  }
+  nav ul .logo {
+    height: 18px;
+    width: 18px;
+    left: 2px;
+  }
+  a span {
+    margin: 1px;
+    font-size: 18px;
+  }
+  ul .ruleButton {
+    right: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 1.5px;
+  }
+  .friend,
+  .computer {
+    height: 160px;
+    width: 200px;
+  }
+}
+@media screen and (min-height: 568px) and (max-width: 430px) {
+  .image-container {
+    margin-top: 5vh;
+  }
+  h1 {
+    margin-top: 5vh;
+  }
+  h3 {
+    font-size: 36px;
+    margin-top: 4vh;
+  }
+  nav {
+    margin-top: 2vh;
+  }
+}

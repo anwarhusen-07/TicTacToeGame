@@ -60,6 +60,7 @@ ul .enjoy {
   text-align: center;
   font-size: 44px;
   font-family: "Playfair Display", serif;
+  margin-left:30px;
 }
 
 .rightNav {
@@ -390,6 +391,7 @@ div {
   }
   div .computerText {
     font-size: 16px;
+    margin-left:4px:
   }
   nav ul .enjoy {
     font-size: 18px;
